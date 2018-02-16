@@ -34,6 +34,15 @@ body {
     flex-direction: row;
 }
 
+.gallery_img {
+    margin-right: 20px;
+}
+
+.project_link {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 header {
     text-align: center;
     width:  25%;
