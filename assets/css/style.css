@@ -38,10 +38,7 @@ body {
     margin-right: 20px;
 }
 
-.project_link {
-    text-transform: uppercase;
-    text-align: center;
-}
+
 
 header {
     text-align: center;
@@ -118,6 +115,40 @@ img#bio_img {
     margin: 1px;
     padding: 0px;
     width: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+form > label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+form > input {
+    margin-bottom: 20px;
+}
+
+input#name {
+    min-height: 30px;
+}
+input#email {
+    min-height: 30px;
+}
+input#message {
+    min-height: 200px;
+}
+
+input::placeholder {
+    color: #d5d5d5;
+}
+
+input#submit {
+    width: 115px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 40px;
 }
 .heading {
     padding-top: 20px;
